@@ -80,7 +80,7 @@ with col2:
                 
                 st.markdown(f"Combinação {i+1}: {styled_numbers}", unsafe_allow_html=True)
             else:
-                st.write(f"Não há números suficientes para gerar a combinação. Tente reduzir a porcentagem mínima.")
+                st.write(f"Não há números suficientes para gerar a combinação. Tente alterar o intervalo.")
                 break
 
 with col3:
